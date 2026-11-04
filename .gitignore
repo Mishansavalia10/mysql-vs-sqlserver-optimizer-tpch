@@ -191,7 +191,7 @@ cython_debug/
 # .idea/
 
 # Abstra
-#   Abstra is an AI-powered process automation framework.
+#   Abstra process automation framework.
 #   Ignore directories containing user credentials, local state, and settings.
 #   Learn more at https://abstra.io/docs
 .abstra/
@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project specific ---
+# Real connection details (use config/config.example.ini as the template)
+config/config.ini
+# Raw TPC-H data files are huge; regenerate them with the scripts in data_generation/
+*.tbl
+*.dat
+data_generation/tpch-dbgen/

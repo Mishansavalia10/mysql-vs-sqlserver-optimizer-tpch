@@ -226,3 +226,6 @@ config/config.ini
 *.tbl
 *.dat
 data_generation/tpch-dbgen/
+data_generation/data/
+__pycache__/
+.pytest_cache/
